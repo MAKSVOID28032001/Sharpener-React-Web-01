@@ -1,0 +1,45 @@
+.BOX{
+    margin: 20px;
+    padding: 10px;
+    background: rgba(100, 100, 100, 0.533);
+    border-radius: 10px;
+}
+.Form-Box{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.InsideBox{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.LBL{
+    margin: 5px;
+}
+.IP{
+    background: none;
+    outline: none;
+    border: none;
+    width: 200px;
+    margin: 5px;
+    border-bottom: 2px solid black;
+}
+.ButtonBox{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SBTN{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgb(62, 26, 124);
+    border-radius: 10px;
+    color: white;
+}
